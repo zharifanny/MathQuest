@@ -37,7 +37,8 @@ public class ItemController : MonoBehaviour
     private static System.Random rng = new System.Random();
     [Header("Parent Object Settings")]
     [SerializeField] private HideableObject parentContainer; // Tambahkan referensi ke script HideableObject di TV
-
+    [Header("VFX Settings")]
+    [SerializeField] private GameObject clickVFX;
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
@@ -155,10 +156,22 @@ public class ItemController : MonoBehaviour
 
     void HandleCorrectAnswer()
     {
+        // Munculkan VFX di posisi objek, dan jadi child dari parent yang sama
+        if (clickVFX != null)
+        {
+            Vector3 spawnPos = transform.position;
+            GameObject vfxInstance = Instantiate(clickVFX, transform.parent);
+            vfxInstance.transform.position = transform.position;
+            Destroy(vfxInstance, 1f);
+
+        }
+
         audioSource.PlayOneShot(correctSound);
         currentSoal = null;
         StartCoroutine(DisableItem());
     }
+
+
 
     void HandleWrongAnswer()
     {
