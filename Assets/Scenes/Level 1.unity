@@ -371,6 +371,7 @@ GameObject:
   m_Component:
   - component: {fileID: 14783266}
   - component: {fileID: 14783265}
+  - component: {fileID: 14783267}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -455,6 +456,29 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 53.034, y: 60.458, z: -2.718}
+--- !u!114 &14783267
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14783264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_LightLayerMask: 1
+  m_RenderingLayers: 1
+  m_CustomShadowLayers: 0
+  m_ShadowLayerMask: 1
+  m_ShadowRenderingLayers: 1
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
 --- !u!1 &16695106 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4296188576060749253, guid: f5ca8a1299ccfda4da49b1b58650f99c, type: 3}
@@ -15596,7 +15620,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveOffset: {x: 0, y: 0, z: 0}
-  rotateAngles: {x: 0, y: -90, z: 0}
+  rotateAngles: {x: 0, y: -170, z: 0}
   animationDuration: 0.8
   hiddenItem: {fileID: 0}
   moveSound: {fileID: 0}
