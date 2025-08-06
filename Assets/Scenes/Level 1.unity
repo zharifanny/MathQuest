@@ -8226,7 +8226,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1045689315
 AudioListener:
   m_ObjectHideFlags: 0
@@ -11328,7 +11328,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1316976182
 AudioListener:
   m_ObjectHideFlags: 0
@@ -14319,7 +14319,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00000000000101
+        actionIsOpen: 00010000000101
         actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -14332,7 +14332,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 1491685580}
+            value: {fileID: 1563864732}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -14725,7 +14725,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00000000000101
+        actionIsOpen: 00010000000101
         actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -14738,7 +14738,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 1491685580}
+            value: {fileID: 1563864732}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -15131,7 +15131,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00000000000101
+        actionIsOpen: 00010000000101
         actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -15144,7 +15144,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 1491685580}
+            value: {fileID: 1563864732}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -15709,7 +15709,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!81 &1721707338
 AudioListener:
   m_ObjectHideFlags: 0
@@ -17297,6 +17297,10 @@ PrefabInstance:
       propertyPath: m_Convex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -1053447985543201550, guid: 89b08f074ed49a947b01e48614c65e0f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5847020381376097942, guid: 89b08f074ed49a947b01e48614c65e0f, type: 3}
       propertyPath: m_Name
       value: Cup_7
@@ -17366,6 +17370,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5847020381376097942, guid: 89b08f074ed49a947b01e48614c65e0f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1937224823}
+    - targetCorrespondingSourceObject: {fileID: 5847020381376097942, guid: 89b08f074ed49a947b01e48614c65e0f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1937224827}
   m_SourcePrefab: {fileID: 100100000, guid: 89b08f074ed49a947b01e48614c65e0f, type: 3}
 --- !u!4 &1937224817 stripped
 Transform:
@@ -17503,6 +17510,27 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!65 &1937224827
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1937224818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4998992, y: 0.2907744, z: 0.68598354}
+  m_Center: {x: 0.21469785, y: -0.06850159, z: 0.3068313}
 --- !u!1001 &1939586711
 PrefabInstance:
   m_ObjectHideFlags: 0
