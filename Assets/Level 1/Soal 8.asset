@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325a027b6508a5b4e89701afeaf7a55d, type: 3}
   m_Name: Soal 8
   m_EditorClassIdentifier: 
-  soalSprite: {fileID: 21300000, guid: 3d32b494fcafa1d46928c4566a86db5e, type: 3}
-  correctAnswer: 5
+  soalSprite: {fileID: 21300000, guid: 2894a2b59d030424e840b06a2a234892, type: 3}
+  correctAnswer: Baik hati
   wrongAnswers:
-  - 3
-  - 4
-  hasBeenUsed: 0
+  - Sombong
+  - Cuek

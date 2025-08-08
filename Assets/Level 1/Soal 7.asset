@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325a027b6508a5b4e89701afeaf7a55d, type: 3}
   m_Name: Soal 7
   m_EditorClassIdentifier: 
-  soalSprite: {fileID: 21300000, guid: 28fb536f5325162468954ea738f7f039, type: 3}
-  correctAnswer: Rp.6000
+  soalSprite: {fileID: 21300000, guid: 118791bed43f6460ebf1c844583db7fb, type: 3}
+  correctAnswer: Peduli lingkungan
   wrongAnswers:
-  - Rp.9000
-  - Rp.10000
-  hasBeenUsed: 0
+  - Malas
+  - Merusak alam

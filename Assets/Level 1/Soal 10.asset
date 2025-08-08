@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325a027b6508a5b4e89701afeaf7a55d, type: 3}
   m_Name: Soal 10
   m_EditorClassIdentifier: 
-  soalSprite: {fileID: 21300000, guid: 7e3825ed5ec8def4aac3de4fbaf000f2, type: 3}
-  correctAnswer: 6
+  soalSprite: {fileID: 21300000, guid: a32af54ad3acf4bde9e5dfdd93af89c5, type: 3}
+  correctAnswer: Bisa diminum dan digunakan
   wrongAnswers:
-  - 5
-  - 9
-  hasBeenUsed: 0
+  - Bisa dibuang sembarangan
+  - Bisa dipakai mandi hewan

@@ -1563,7 +1563,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 010101010101
-        actionIsOpen: 000000000000
+        actionIsOpen: 000101010100
         actionStartIndex: 00000000050000000a0000000f0000001200000015000000
         actionHashCodes: b2cf1000b2cf1000b2cf100043e2410343e2410343e24103
         unityObjectParams: []
@@ -1872,7 +1872,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00000001000001
+        actionIsOpen: 00000001010001
         actionStartIndex: 00000000050000000a0000000f000000120000001500000018000000
         actionHashCodes: b2cf1000b2cf1000b2cf100043e2410343e2410343e2410348c01101
         unityObjectParams: []
@@ -3443,8 +3443,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.6
-  m_fontSizeBase: 31.6
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -4763,8 +4763,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.6
-  m_fontSizeBase: 31.6
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5708,7 +5708,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Kamera Utama
+  m_text: Ruang Utama
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8d34560b6d49c4469b2174ccd34ae34b, type: 2}
   m_sharedMaterial: {fileID: 8690591861142563998, guid: 8d34560b6d49c4469b2174ccd34ae34b, type: 2}
@@ -12564,7 +12564,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &1404346200
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13339,8 +13339,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 31.6
-  m_fontSizeBase: 31.6
+  m_fontSize: 25
+  m_fontSizeBase: 25
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -18350,6 +18350,7 @@ MonoBehaviour:
         - HutongGames.PlayMaker.Actions.ActivateGameObject
         - HutongGames.PlayMaker.Actions.UiButtonOnClickEvent
         - HutongGames.PlayMaker.Actions.UiButtonOnClickEvent
+        - HutongGames.PlayMaker.Actions.CameraFadeIn
         customNames:
         - 
         - 'Activate Main Camera '
@@ -18358,10 +18359,11 @@ MonoBehaviour:
         - 
         - 
         - 
-        actionEnabled: 01010101010101
-        actionIsOpen: 00010000000001
-        actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
-        actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
+        - 
+        actionEnabled: 0101010101010100
+        actionIsOpen: 0101000000010101
+        actionStartIndex: 0000000002000000070000000c0000001100000016000000190000001c000000
+        actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e2410354303200
         unityObjectParams: []
         fsmGameObjectParams: []
         fsmOwnerDefaultParams:
@@ -18526,7 +18528,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera Utama
+            value: Ruang Utama
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -18620,7 +18622,13 @@ MonoBehaviour:
         fsmVarParams: []
         fsmArrayParams: []
         fsmEnumParams: []
-        fsmFloatParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
         fsmIntParams: []
         fsmBoolParams:
         - useVariable: 0
@@ -18673,18 +18681,25 @@ MonoBehaviour:
           value: 0
         fsmVector2Params: []
         fsmVector3Params: []
-        fsmColorParams: []
+        fsmColorParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: {r: 1, g: 1, b: 1, a: 1}
         fsmRectParams: []
         fsmQuaternionParams: []
         stringParams:
         - Kamera 1
         - Kamera 3
-        byteData: 000000000000000000
+        - 
+        byteData: 00000000000000000000
         arrayParamSizes: 
         arrayParamTypes: []
         customTypeSizes: 
         customTypeNames: []
-        paramDataType: 24000000010000001400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000140000001f00000017000000140000001f00000017000000
+        paramDataType: 24000000010000001400000011000000110000000100000001000000140000001100000011000000010000000100000014000000110000001100000001000000010000001400000011000000110000000100000001000000140000001f00000017000000140000001f00000017000000190000000f0000001700000001000000
         paramName:
         - targetProperty
         - everyFrame
@@ -18714,8 +18729,12 @@ MonoBehaviour:
         - gameObject
         - eventTarget
         - sendEvent
-        paramDataPos: 00000000000000000000000000000000010000000100000002000000010000000200000003000000030000000400000002000000040000000500000005000000060000000300000006000000070000000700000008000000040000000000000000000000050000000100000001000000
-        paramByteDataSize: 00000000010000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000000000000000000000000000000000000
+        - color
+        - time
+        - finishEvent
+        - realTime
+        paramDataPos: 0000000000000000000000000000000001000000010000000200000001000000020000000300000003000000040000000200000004000000050000000500000006000000030000000600000007000000070000000800000004000000000000000000000005000000010000000100000000000000000000000200000009000000
+        paramByteDataSize: 0000000001000000000000000000000000000000010000000100000000000000000000000000000001000000010000000000000000000000000000000100000001000000000000000000000000000000010000000100000000000000000000000000000000000000000000000000000000000000000000000000000001000000
     - name: Kamera 1
       description: 
       colorIndex: 0
@@ -18765,7 +18784,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00000000000101
+        actionIsOpen: 01010000000101
         actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -18932,7 +18951,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera 1
+            value: Kamar Pertama
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -19171,7 +19190,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00000000000101
+        actionIsOpen: 01000000000101
         actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -19338,7 +19357,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera 3
+            value: Kamar Kedua
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -19577,7 +19596,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 00000000000101
+        actionIsOpen: 01000000000101
         actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -19744,7 +19763,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera 2
+            value: Dapur
           Vector2Parameter:
             useVariable: 0
             name: 

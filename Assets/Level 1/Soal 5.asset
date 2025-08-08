@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325a027b6508a5b4e89701afeaf7a55d, type: 3}
   m_Name: Soal 5
   m_EditorClassIdentifier: 
-  soalSprite: {fileID: 21300000, guid: ce780cdfb0c2b4848a61fd5a9dfc3816, type: 3}
-  correctAnswer: Rp.7000
+  soalSprite: {fileID: 21300000, guid: b55c46f806b1b4814a60137e1126c2ed, type: 3}
+  correctAnswer: Menghormati
   wrongAnswers:
-  - Rp.3000
-  - Rp.5000
-  hasBeenUsed: 0
+  - Mengejek
+  - Menghindari

@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325a027b6508a5b4e89701afeaf7a55d, type: 3}
   m_Name: Soal 4
   m_EditorClassIdentifier: 
-  soalSprite: {fileID: 21300000, guid: decab8f587299fa46a3782f6a9aee537, type: 3}
-  correctAnswer: 7
+  soalSprite: {fileID: 21300000, guid: 30fd32a765c0c4fa8b17d589a7cc5e09, type: 3}
+  correctAnswer: Disimpan atau dibagikan
   wrongAnswers:
-  - 8
-  - 6
-  hasBeenUsed: 0
+  - Dibuang
+  - Dibuang ke jalan

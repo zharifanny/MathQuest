@@ -12,9 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 325a027b6508a5b4e89701afeaf7a55d, type: 3}
   m_Name: Soal 1
   m_EditorClassIdentifier: 
-  soalSprite: {fileID: 21300000, guid: 7a0f9a383dc58f14bb0a1a24ec9a399d, type: 3}
-  correctAnswer: Rp.5000
+  soalSprite: {fileID: 21300000, guid: ae5072d81e7b243519974bf0f88c166a, type: 3}
+  correctAnswer: Lingkungan bersih
   wrongAnswers:
-  - Rp.3000
-  - Rp.7000
-  hasBeenUsed: 0
+  - Jalanan penuh sampah
+  - Banyak nyamuk
