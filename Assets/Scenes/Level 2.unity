@@ -13354,7 +13354,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -14641,7 +14641,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -16659,7 +16659,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -19456,7 +19456,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101010101
-        actionIsOpen: 0000000000000001
+        actionIsOpen: 0100000000000001
         actionStartIndex: 0000000002000000070000000c00000011000000160000001b0000001e000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -19631,7 +19631,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera Utama
+            value: Ruang Utama
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -19889,7 +19889,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101010101
-        actionIsOpen: 0000000000000000
+        actionIsOpen: 0100000000000000
         actionStartIndex: 0000000002000000070000000c00000011000000160000001b0000001e000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -20064,7 +20064,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera 1
+            value: Kamar Satu
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -20322,7 +20322,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101010101
-        actionIsOpen: 0000000000000000
+        actionIsOpen: 0100000000000000
         actionStartIndex: 0000000002000000070000000c00000011000000160000001b0000001e000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -20497,7 +20497,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera 3
+            value: Ruang Tengah
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -20755,7 +20755,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 0101010101010101
-        actionIsOpen: 0000000000000000
+        actionIsOpen: 0100000000000000
         actionStartIndex: 0000000002000000070000000c00000011000000160000001b0000001e000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -20930,7 +20930,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera 2
+            value: Kamar Dua
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -21363,7 +21363,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: Kamera 4
+            value: Ruang Olahraga
           Vector2Parameter:
             useVariable: 0
             name: 
@@ -23809,7 +23809,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
