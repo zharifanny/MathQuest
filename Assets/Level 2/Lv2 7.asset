@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv2 7
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: ddc4a36d98dafb147b1833749ac3666a, type: 3}
-  correctAnswer: Rp4.000
+  correctAnswer: Sakit
   wrongAnswers:
-  - Rp3.000
-  - Rp6.000
+  - Sehat
+  - Kuat

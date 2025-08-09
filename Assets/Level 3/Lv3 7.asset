@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 7
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: 30d0b0e1ab8e89d48a0e460e15c44f5d, type: 3}
-  correctAnswer: 3 menit
+  correctAnswer: Cerah
   wrongAnswers:
-  - 2 menit
-  - 1 menit
+  - Suram
+  - Sama saja

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 4
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: 3e5c7ae6d524d1d4489bf4e1b786dee4, type: 3}
-  correctAnswer: Rp14.000
+  correctAnswer: Menertawakan
   wrongAnswers:
-  - Rp16.000
-  - Rp18.000
+  - Menjauh
+  - Berteman dengan baik

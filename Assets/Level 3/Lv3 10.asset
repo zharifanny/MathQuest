@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 10
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: f8c61411d2b2c084c92e47cffe7932b3, type: 3}
-  correctAnswer: Rp4.000
+  correctAnswer: Cepat selesai
   wrongAnswers:
-  - Rp5.000
-  - Rp6.000
+  - Berat
+  - Lama

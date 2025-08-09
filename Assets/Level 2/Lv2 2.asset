@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv2 2
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: fbbbb945e7184ca47a9bd00ec3042343, type: 3}
-  correctAnswer: 1
+  correctAnswer: Banjir dan tanah longsor
   wrongAnswers:
-  - 2
-  - 3
+  - Udara sejuk
+  - Hujan deras

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 3
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: 3d86bf7b66404604691860abb555d3e2, type: 3}
-  correctAnswer: Rp22.500
+  correctAnswer: Tanggung jawab
   wrongAnswers:
-  - Rp20.500
-  - Rp25.000
+  - Tidak peduli
+  - Malas

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 6
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: add86a11e04544848b2a1067092ff842, type: 3}
-  correctAnswer: Rp4.000
+  correctAnswer: Ikan berkembang biak
   wrongAnswers:
-  - Rp3.000
-  - Rp5.000
+  - Ikan sakit
+  - Banyak limbah

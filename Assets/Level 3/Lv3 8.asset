@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 8
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: c2e7b948fee6e094e899f4ca8de2e35c, type: 3}
-  correctAnswer: 4
+  correctAnswer: Menyumbang makanan
   wrongAnswers:
-  - 3
-  - 5
+  - Mengambil barangnya
+  - Meninggalkannya

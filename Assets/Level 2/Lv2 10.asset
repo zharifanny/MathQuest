@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv2 10
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: bdc32b87911b1b34c89ebc42f6e02f02, type: 3}
-  correctAnswer: Rp7.000
+  correctAnswer: Menjaga kebersihan lingkungan
   wrongAnswers:
-  - Rp5.000
-  - Rp9.000
+  - Merusak taman
+  - Membuang sampah sembarangan

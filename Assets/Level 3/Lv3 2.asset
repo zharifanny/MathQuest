@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 2
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: f9c3fc5e2691f3246a0ccbd703ad6fd5, type: 3}
-  correctAnswer: 6
+  correctAnswer: Jadi pintar dan berguna
   wrongAnswers:
-  - 5
-  - 7
+  - Bisa tidur terus
+  - Tidak perlu kerja sama

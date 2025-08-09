@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 1
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: aced579a8e2a72147859d25de1260a89, type: 3}
-  correctAnswer: Rp11.000
+  correctAnswer: Membangun dunia yang lebih baik
   wrongAnswers:
-  - Rp6.000
-  - Rp15.000
+  - Merusak alam
+  - Menghindari belajar

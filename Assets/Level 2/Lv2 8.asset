@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv2 8
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: c57f1583765af904f917baeec87d92f3, type: 3}
-  correctAnswer: Rp8.000
+  correctAnswer: Toleransi
   wrongAnswers:
-  - Rp9.000
-  - Rp10.000
+  - Marah
+  - Cuek
