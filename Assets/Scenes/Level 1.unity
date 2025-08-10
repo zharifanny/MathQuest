@@ -3349,7 +3349,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.75, y: 0.75, z: 0.75}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0.00000047696295, y: 0.03844276, z: 0.011168629}
 --- !u!1 &170264935
 GameObject:
@@ -4131,8 +4131,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.75, y: 0.75, z: 0.75}
-  m_Center: {x: 0.00000033527613, y: -0.000000834465, z: -0.0000000074505815}
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &219465577
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5492,7 +5492,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.75, y: 0.75, z: 0.75}
+  m_Size: {x: 1.5, y: 1.5, z: 1.5}
   m_Center: {x: 0.000000834465, y: 0, z: 0}
 --- !u!1001 &337799684
 PrefabInstance:
@@ -18797,7 +18797,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 573418164}
+            value: {fileID: 1453779559}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -19190,7 +19190,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 01000000000101
+        actionIsOpen: 01010000000101
         actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -19203,7 +19203,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 573418164}
+            value: {fileID: 1453779559}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -19596,7 +19596,7 @@ MonoBehaviour:
         - 
         - 
         actionEnabled: 01010101010101
-        actionIsOpen: 01000000000101
+        actionIsOpen: 01010000000101
         actionStartIndex: 0000000002000000070000000c000000110000001600000019000000
         actionHashCodes: 5ac85204b2cf1000b2cf1000b2cf1000b2cf100043e2410343e24103
         unityObjectParams: []
@@ -19609,7 +19609,7 @@ MonoBehaviour:
             tooltip: 
             showInInspector: 0
             networkSync: 0
-            value: {fileID: 573418164}
+            value: {fileID: 1453779559}
         - ownerOption: 1
           gameObject:
             useVariable: 0
@@ -20686,15 +20686,15 @@ SceneRoots:
   - {fileID: 451256971}
   - {fileID: 1755922997}
   - {fileID: 163407031}
-  - {fileID: 1175064270}
   - {fileID: 2053184493}
   - {fileID: 1453779564}
   - {fileID: 573418169}
+  - {fileID: 1368339973}
   - {fileID: 1249822008}
+  - {fileID: 1175064270}
   - {fileID: 1659486300}
   - {fileID: 1189495614}
   - {fileID: 1394042247}
-  - {fileID: 1368339973}
   - {fileID: 2137745436}
   - {fileID: 262988274}
   - {fileID: 632813959}
