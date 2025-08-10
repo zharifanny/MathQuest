@@ -2758,6 +2758,7 @@ Transform:
   - {fileID: 1803594500}
   - {fileID: 908338831}
   - {fileID: 222402908}
+  - {fileID: 395375842}
   - {fileID: 1680055841}
   - {fileID: 950844076}
   - {fileID: 1335789598}
@@ -3763,6 +3764,10 @@ PrefabInstance:
     - target: {fileID: 8044960176663504329, guid: 476a0b6dc135eb149ae060500726e49a, type: 3}
       propertyPath: m_Name
       value: Home Tent_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8044960176663504329, guid: 476a0b6dc135eb149ae060500726e49a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 5086193658234525096, guid: 476a0b6dc135eb149ae060500726e49a, type: 3}
@@ -6474,7 +6479,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1251209033}
+    m_TransformParent: {fileID: 162306381}
     m_Modifications:
     - target: {fileID: 2427872860207742325, guid: c8e44cd2e977e0b46803f0b1a0159cad, type: 3}
       propertyPath: m_RootOrder
@@ -6482,15 +6487,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2427872860207742325, guid: c8e44cd2e977e0b46803f0b1a0159cad, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.211
+      value: -1.083
       objectReference: {fileID: 0}
     - target: {fileID: 2427872860207742325, guid: c8e44cd2e977e0b46803f0b1a0159cad, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.611
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 2427872860207742325, guid: c8e44cd2e977e0b46803f0b1a0159cad, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1.07
+      value: -1.407
       objectReference: {fileID: 0}
     - target: {fileID: 2427872860207742325, guid: c8e44cd2e977e0b46803f0b1a0159cad, type: 3}
       propertyPath: m_LocalRotation.w
@@ -22857,7 +22862,6 @@ Transform:
   - {fileID: 190045716}
   - {fileID: 460588641}
   - {fileID: 1388397558}
-  - {fileID: 395375842}
   - {fileID: 2003293039}
   - {fileID: 922978400}
   - {fileID: 1218764323}
@@ -23421,7 +23425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveOffset: {x: 0, y: 0, z: 1}
   rotateAngles: {x: 0, y: 0, z: 0}
-  animationDuration: 0.6
+  animationDuration: 1
   hiddenItem: {fileID: 1797309632}
   moveSound: {fileID: 8300000, guid: 47462e1b1e8f44945971933d81b3f121, type: 3}
 --- !u!82 &1276994777
@@ -29234,7 +29238,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7789579205345241073, guid: 27e40ebc8417bcf47ac2713619b7ed27, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 7789579205345241073, guid: 27e40ebc8417bcf47ac2713619b7ed27, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -34291,7 +34300,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.5, y: 1.5, z: 1.5}
+  m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0.07415565, y: 0.19472305, z: 0.010701264}
 --- !u!1001 &1802977095
 PrefabInstance:
