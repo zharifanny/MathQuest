@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Lv3 4
   m_EditorClassIdentifier: 
   soalSprite: {fileID: 21300000, guid: 3e5c7ae6d524d1d4489bf4e1b786dee4, type: 3}
-  correctAnswer: Menertawakan
+  correctAnswer: Berteman dengan baik
   wrongAnswers:
   - Menjauh
-  - Berteman dengan baik
+  - Menertawakan
